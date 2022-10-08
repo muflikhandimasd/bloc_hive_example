@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:hive/hive.dart';
-part 'movie.g.dart';
+part './movie.g.dart';
 
 @HiveType(typeId: 0)
 class Movie extends Equatable {
